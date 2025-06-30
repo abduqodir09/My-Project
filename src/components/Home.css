@@ -1,0 +1,893 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border-bottom: 1px solid white;
+    height: 110px;
+    backdrop-filter: blur(40px);
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 33; */
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headers {
+    width: 100%;
+    height: 800px;
+    background-image: url('./../assets/back.jpg');
+    background-repeat: no-repeat;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.Nav-List {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Nav-List:hover {
+    color: rgb(245, 160, 1);
+}
+
+.search{
+    padding-bottom: 9px;
+}
+
+.header-p1 {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.header-p1:hover {
+    color: rgb(245, 160, 1);
+}
+
+.header-p2 {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.header-p2:hover {
+    color: rgb(245, 160, 1);
+}
+
+.slesh {
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headerBtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(211, 197, 197);
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+}
+
+.sec-1-h1 {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.sec-1-h1 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 60px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+}
+
+.human-name {
+    width: 110px;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 70px;
+}
+
+.ChatBtn {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 300px;
+    height: 400px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* animation */
+
+.animation {
+    overflow: hidden;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.animation-w {
+    display: flex;
+    width: 100%;
+}
+
+.animation-track {
+    display: flex;
+    gap: 30px;
+    animation: scrollLeft 30s linear infinite;
+    width: max-content;
+}
+
+.animation-card {
+    min-width: 150px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.animation-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.animation-card p {
+    font-weight: bold;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.car-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* animation */
+
+.section-2-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.section-3-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cardsLink{
+    text-decoration: none;
+}
+
+.next-img {
+    width: 20px;
+}
+
+.cardsBtn {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.cardsBtn:hover {
+    border: 1px solid rgb(255, 111, 0);
+    color: rgb(255, 111, 0);
+}
+
+.cards-name {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+.cards-price {
+    font-size: 19px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    color: rgb(255, 111, 0);
+}
+
+.cards-year {
+    font-size: medium;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-5-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.section-5-div-w {
+    border: 1px solid;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.sec-5-h2 {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.sec-5-p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    width: 280px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.sec-5-btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 111, 0);
+    background-color: white;
+    border-radius: 9px;
+    color: rgb(255, 111, 0);
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.sec-5-btn:hover {
+    background-color: rgb(255, 111, 0);
+    color: white;
+}
+
+.section-5-img:hover {
+    transform: rotateY(180deg);
+    transition: transform 0.5s linear;
+}
+
+.section-5-img {
+    height: 120px;
+}
+
+.section-5-img:not(:hover) {
+    transform: rotateY(0deg);
+    transition: transform 0.5s linear;
+}
+
+.section-5 {
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.sec-5-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.sec-5-p-w {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sec-6-all {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 111, 0);
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.icon-1 {
+    width: 20px;
+}
+
+.right-h2 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.right-p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 340px;
+    color: white;
+    padding-top: 10px;
+}
+
+.right-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    color: rgb(255, 111, 0);
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.mersfr {
+    height: 200px;
+}
+
+.sect-6-all {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.rig-2-h2 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.rig-2-p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 340px;
+    color: white;
+    padding-top: 10px;
+}
+
+.rig-2-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: rgb(255, 111, 0);
+    margin-top: 10px;
+}
+
+.icon-2 {
+    width: 20px;
+}
+
+
+.bmwfr {
+    height: 200px;
+}
+
+.section-6-div-w {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+/* animaton two */
+
+.sec-7-w-g-a {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.sec-7-w-g-a-d {
+    display: flex;
+    width: 100%;
+}
+
+.sec-7-w-g-a-d-t {
+    display: flex;
+    gap: 30px;
+    animation: scrollLeft 120s linear infinite;
+    width: max-content;
+}
+
+.w-card {
+    min-width: 150px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-shrink: 0;
+    border: 1px solid rgb(236, 223, 223);
+    cursor: pointer;
+}
+
+.w-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.w-p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.w-p:hover {
+    color: rgb(255, 111, 0);
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* animation two */
+
+.section-7-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.sec-8-rendering {
+    background-image: url('../assets/new.png');
+    width: 100%;
+    height: 659px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.sec-8-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sec-8-ren-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    color: rgb(116, 110, 110);
+    padding-top: 100px;
+    padding-left: 60px;
+    width: 500px;
+}
+
+.sec-8-ren-p {
+    color: rgb(116, 110, 110);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 500px;
+}
+
+.sec-8-ren-btn {
+    margin-left: 60px;
+    margin-top: 200px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 111, 0);
+}
+
+.sec-8-ren-btn:hover {
+    background-color: black;
+}
+
+.auto-name-global-l {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.global-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.global-h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.global-h1:hover {
+    color: rgb(255, 111, 0);
+}
+
+.global-p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auto-name-global {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec-9-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* animation three */
+
+.passing-get-let {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.passing-get-let-w {
+    display: flex;
+    width: 100%;
+}
+
+.passing-get-let-w-h {
+    display: flex;
+    gap: 30px;
+    animation: scrollLeft 120s linear infinite;
+    width: max-content;
+}
+
+.passing-card {
+    min-width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.passing-img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* animation three */
+
+.sec-10-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-one-div-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-one-div-a-into {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    background-color: rgb(37, 40, 40);
+    width: 100%;
+}
+
+.footer-one-div-a-into-img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-one-div-a-into-h4 {
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-one-div-a-into-p {
+    color: rgb(62, 59, 59);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+}
+
+.footer-pas-hr-a-ab {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.footer-pas-hr-a-abc-into-h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-pas-hr-a-abc-into-p {
+    color: rgb(62, 59, 59);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.footer-pas-hr-a-abc-into-p:hover {
+    color: rgb(255, 111, 0);
+}
+
+.footer-pas-hr-a-abc-into-p-land {
+    color: rgb(62, 59, 59);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    width: 300px;
+}
+
+hr {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-pas-hr-a-abc-into-inp {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(62, 59, 59);
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.footer-pas-hr-a-abc-into-inp:focus {
+    border: 1px solid rgb(255, 111, 0);
+}
+
+.footer-pas-hr-a-abc-into-btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 111, 0);
+}
+
+.footer-pas-hr-a-abc-into-btn:hover{
+    background-color: black;
+}
+
+.footer-landing-a-l{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-landing-a-l-2{
+    display: flex;
+    align-items: center;
+}
+
+.rights{
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+/* swipper */
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swipper-img{
+    width: 700px;
+}
+
+.mySwiper{
+    height: 700px;
+    margin-top: 70px;
+}
+/* swipper */
+
+.sec-4-h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}

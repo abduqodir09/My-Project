@@ -1,0 +1,53 @@
+.box-1 {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+.modal-1 {
+  padding: 30px;
+  max-width: 480px;
+  margin: 200px auto;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.close-img{
+    width: 20px;
+    height: 20px;
+    margin-left: 390px;
+}
+
+.sign-inp{
+  width: 400px;
+  height: 50px;
+  border: 1px solid gray;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.sign-inp:focus{
+  border: 1px solid rgb(255, 111, 0);
+}
+
+.signBtn{
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 111, 0);
+}
+
+.signBtn:hover{
+  background-color: black;
+}

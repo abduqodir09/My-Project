@@ -1,0 +1,53 @@
+.box-2 {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-2 {
+    padding: 30px;
+    max-width: 480px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.modal-2-x {
+    width: 30px;
+    height: 30px;
+}
+
+.addInp {
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.addInp:focus {
+    border: 1px solid rgb(255, 111, 0);
+}
+
+.addBtn {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 111, 0);
+    margin-top: 30px;
+}
+
+.addBtn:hover{
+    background-color: black;
+}
